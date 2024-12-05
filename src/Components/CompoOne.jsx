@@ -12,9 +12,7 @@ const CompoOne = () => {
      }
   return (
     <>
-      <div className="flex">
-          <CompoTwo AddData={handleAdd} RemoveData={handleRemove} MainData={data}/>
-      </div>
+     <CompoTwo AddData={handleAdd} RemoveData={handleRemove} MainData={data}/>
     </>
   )
 }
