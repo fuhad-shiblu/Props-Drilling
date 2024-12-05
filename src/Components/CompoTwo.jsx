@@ -2,9 +2,11 @@
 const CompoTwo = ({AddData, RemoveData, MainData}) => {
   return (
     <>
-     <button onClick={AddData}>Plus</button>
-     <p>{MainData}</p>
-     <button onClick={RemoveData}>Minus</button>
+     <div className="fuhadShiblu_compo">
+      <button onClick={RemoveData}>Decrease</button>
+      <p>{MainData}</p>
+      <button onClick={AddData}>Increase</button>
+     </div>
     </>
   )
 }
